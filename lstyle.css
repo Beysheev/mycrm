@@ -1,0 +1,53 @@
+header .cent{
+    display: flex;
+    align-items: center;
+}
+header h1{
+    font-size: 24px;
+    padding: 10px 0;
+    text-align: center;
+}
+header .row .back{
+    margin-top: 20px;
+}
+header .row .back a{
+    text-decoration: none;
+    color: black;
+    border: 1px solid grey;
+    border-radius: 5px;
+    padding: 5px;
+}
+header .row .back a:hover{
+    background-color: rgb(48, 0, 179);
+    color: aliceblue;
+}
+header .row .card h2{
+    font-size: 20px;
+}
+header .row .card h3{
+    font-size: 16px;
+}
+header .row .card h4{
+    font-size: 13px;
+}
+header .row .card a{
+    text-decoration: none;
+    color: white;
+    border: 1px solid grey;
+    background-color: rgba(0, 126, 27, 0.932);
+}
+header .row .card{
+    margin: 10px;
+    text-align: center;
+}
+
+
+
+
+
+@media screen and (max-width: 400px) {
+    header h1 {
+        font-size: 22px;
+        padding: 5px 0;
+    }
+}
